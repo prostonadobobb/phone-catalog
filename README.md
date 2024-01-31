@@ -1,9 +1,10 @@
-# React TypeScript Starter Pack
-
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+This is a product sales site. It uses the following technologies:
+- React (functional components);
+- Use (different hooks and react-libraries);
+- Use splide-slide libraries;
+- SASS preprocessor;
+- BEM methodology;
+- TypeScript for typing)));
+- Locale storage;
+- Context;
+- Api from download content;
