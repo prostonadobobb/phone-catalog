@@ -36,9 +36,15 @@
 
   .splide__slide {
     text-align: center;
+    max-height: 400px;
+    
+    & img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 
-  img {
-    max-width: 100%;
-  }
+  
 }

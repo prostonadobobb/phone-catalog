@@ -29,9 +29,11 @@ export const FavoritePages: React.FC<Props> = () => {
       <div className="container">
         <BreadCrumbs />
         <h1 className="favorite__title">Favourites</h1>
-        <div className="favorite__counter">{`${favoriteProducts.length} items`}</div>
+        <div className="favorite__counter">
+          {favoriteProducts ? `${favoriteProducts.length} items` : '0 items'}
+        </div>
 
-        {favoriteProducts.length ? (
+        {favoriteProducts && favoriteProducts.length > 0 ? (
           <div className="favorite__list">
             {favoriteProducts.map(product => (
               <ProductCard key={product.id} product={product} />
