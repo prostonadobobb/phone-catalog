@@ -1,11 +1,9 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import { App } from './App';
+import { Root } from './Root';
+import 'normalize.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // eslint-disable-next-line react/react-in-jsx-scope
+  <Root />,
   document.getElementById('root'),
 );
