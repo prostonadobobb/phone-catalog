@@ -9,6 +9,11 @@
   width: 100%;
   border: none;
   line-height: 1;
+  transition: .3s;
+
+  &:hover {
+    box-shadow: 0 3px 13px 0 rgba(23,32,49,.26);
+  }
 }
 
 .card__button-added {
